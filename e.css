@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(197, 194, 194) ;
+    display: flex;
+    
+    
+
+}
+.one{
+    
+    background-color: white;
+    border-radius: 20px ;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 10px;
+   
+}
+
+.one h1{  text-align: center;
+    text-transform: capitalize;
+    margin-left: 40px;
+    
+ }
+
+.one p{text-align: center;
+     color: grey;
+     text-transform: capitalize;
+}
+
+.one button{
+    background-color: gray;
+    border-radius: 50px;
+    border-color: gray;
+
+}
+.one button.a{
+
+    background-color: blueviolet;
+    
+    
+
+}
+
+.one p.b{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+
+.two{
+    display: flexbox;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 20px ;
+    height: 300px;
+    width: 600px;
+    margin-left: 5px;
+    
+}
+.two button.a{
+    background-color: blueviolet;
+}
+.two p.b{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.two h1{  text-align: center;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+.two p{
+    text-align: center;
+    color: grey;
+    text-transform: capitalize; 
+}
+.two button{
+    background-color: gray;
+    border-radius: 50px;
+    border-color: gray;
+
+}
+.three{
+    display: flexbox;
+    background-color:white;
+    width: 600px;
+    height: 300px;
+    flex-wrap: nowrap;
+    border-radius:20px ;
+}
+.three button{
+    background-color: gray;
+    border-radius: 50px;
+    border-color: gray;
+    
+}
+.three button.a{
+    background-color: blueviolet;
+    
+}
+.three h1{  text-align: center;
+    text-transform: capitalize;
+    margin-left: 40px;
+    
+ }
+ .three p{text-align: center;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 40px;
+    
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}

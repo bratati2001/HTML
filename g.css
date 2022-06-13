@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    width: 40%;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    gap: 20px;
+    
+    
+}
+header,footer{
+    
+    padding: 0;
+    color: black;
+    border: 1px solid black;
+}
+.grid{
+    
+    height: 400px;
+    padding: 0;
+    border: 2px solid black;
+    
+
+
+}

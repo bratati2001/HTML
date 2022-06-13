@@ -1,0 +1,28 @@
+body{
+    background-color:white;
+}
+
+.red{
+
+    background-color: red;
+    height: 50px;
+    width: 100%;
+
+    }
+.black{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+
+}
+.b{
+display: flexbox;
+}
+@media all and (max-width:768px){
+    .red{
+        background-color: blue;
+    }
+    .black{
+        background-color: yellow;
+    }
+}

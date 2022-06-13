@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+
+main{
+    width: 50%;
+    height: 50px;
+    margin: 50px auto;
+    border: 1px  solid ;
+    color: white;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap:20px ;
+    gap: 20px;
+    text-align: center;
+}
+.div1{background-color: red;}
+.div2{background-color: yellow;}
+.div3{background-color: green;}
+.div4{background-color: blue;}
+.div5{background-color: aqua;}
+.div6{background-color: orangered;}
