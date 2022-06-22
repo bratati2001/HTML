@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    
+    color: blueviolet;
+    margin-left: 290px;
+    text-size-adjust: 60px;
+}
+
+h2{
+    color: red;
+
+}
+.ab{
+    color: green;
+}
+img{
+    height: 1000px;
+    width: 900px;
+    margin-left: 10px;
+    left: 50px;
+}
+.bc{
+    color: brown;
+}
+.pc{
+    height: 700px;
+    width: 700px;
+    margin-left: 10px;
+}
+.cp{
+    height: 700px;
+    width: 700px;
+    left: 150;
+
+}

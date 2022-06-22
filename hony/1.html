@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKING MUSIC PLAYER APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="main_div">
+        <div class="music_container">
+        <h2 id="title">OBOSESH</h2>
+        <h3 id="artist">Arijit Singh</h3>
+        <div class="img_container">
+            <img class="img" src="/img/bratati1.jpg" alt="">
+        </div>   
+            <audio src="/music/bratati1.mp3"></audio>
+            <div class="music_controls">
+            <i class="fas fa-backward" id="prev" title="preveious"></i>
+            <i class="fas fa-play"id="play" title="play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+        <script>
+            const music=document.querySelector('audio');
+            const img=document.getElementById('img');
+            const play=document.getElementById('play');
+            const title=document.querySelector('title');
+            const artist=document.querySelector('artist');
+            const prev=document.querySelector('prev');
+            const next=document.querySelector('next');
+
+            const songs=[
+                {   name:"bratati1",
+                    title:"OBOSESH",
+                    artist:'Arijit Singh',
+                },
+
+                {   name:"bratati2",
+                    title:"Meri jaan",
+                    artist:"Netti Mohan",
+
+                },
+            ]
+            let isplaying=false;
+            const playMusic=()=>{
+                isplaying=true;
+                music.play();
+             play.classList.replace("fa-play","fa-pause")
+             };
+
+            const pauseMusic=()=>{
+                isplaying=false
+                music.pause();
+                play.classList.replace("fa-pause","fa-play",)
+             };
+        
+             play.addEventListener('click',()=>{
+              if(isplaying){
+              pauseMusic();
+             }else{
+                playMusic();
+             }
+                
+             });
+             play.addEventListener('click',()=>{
+            isplaying ? playMusic():pauseMusic();
+             });
+    
+
+
+        </script>
+</body>
+</html>
